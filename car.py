@@ -6,6 +6,6 @@ class Car(ABC):
         self.engine = engine
         self.battery = battery
     
-    # true is any of the parts return true
+   @abstractmethod
     def needs_service(self):
         pass
